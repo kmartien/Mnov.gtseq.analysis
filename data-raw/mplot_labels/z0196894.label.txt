@@ -1,0 +1,4 @@
+z0196894_Mnov_GTseek_026_003_PLT_6.fastq.sam	z0196894.GTseqprod	NA
+z0196894_Mnov_GTseek_026_171_PLT_6.fastq.sam	z0196894.Gseqprod.b	NA
+z0196894_Mnov_MS58_n0034664.fastq.sam	z0196894.MS58	NA
+z0196894_S343_L001.fastq.sam	z0196894.MS54	NA
