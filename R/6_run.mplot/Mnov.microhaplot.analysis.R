@@ -1,12 +1,12 @@
 library(vcfR)
 library(microhaplot)
 
-run.label <- "RunMS58"
+run.label <- "all"
 
 # for your dataset: customize the following paths
 # sam.path <- paste0("data-raw/sam.files/", run.label, ".all")
 # label.path <- "data-raw/mplot_labels/RunMS51.label.txt"
- vcf.path <- "vcf/RunMS58.filtered.recode.vcf"
+ vcf.path <- "vcf/RunMS58.targetSNPs.recode.vcf"
 # app.path <- "~/Shiny/microhaplot"
 
 sam.path <- paste0("data-raw/sam.files/", run.label)

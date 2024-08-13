@@ -5,19 +5,19 @@ source("R/functions/mplot2tgt.R")
 source("R/functions/Compare.replicates.R")
 setwd("/Users/Shared/KKMDocuments/Documents/Github.Repos/Mnov/Mnov.gtseq.analysis")
 
-project <- "RunMS58"
+project <- "RunMS58.allSNPs"
 
 AB.min.het <- 3/7
 AB.max.homo <- 2/8
 min.AR.het <- 3/10
 max.AR.homo <- 2/10
-min.read.depth <- 10
+min.read.depth <- 20
 num.locs <- 368
 min.genos.per.ind <- num.locs * 0.8
 
 tgt <- mplot2tgt(project = project, AB.min.het = AB.min.het, AB.max.homo = AB.max.homo,
                  min.read.depth = min.read.depth)
-project <- "RunMS58.allSNPs"
+
 # compare replicates
 LABIDs <- unique(tgt$Indiv) %>% substr(start = 1, stop = 8)
 replicates <- LABIDs[duplicated(LABIDs)]
@@ -60,10 +60,10 @@ geno.table$num.genos <- do.call(rbind, lapply(1:nrow(geno.table), function(i){
 
 loc.sum <- data.frame(colnames(geno.table)[-c(1,ncol(geno.table))], do.call(rbind, lapply(2:(ncol(geno.table)-1), function(l){
   inds.genoed <- length(which(!is.na(geno.table[1:nrow(geno.table),l])))
-  num.haps <- sum(!is.na(unique(geno.table[,l])))
-  c(inds.genoed, num.haps)
+  num.unique.genos <- sum(!is.na(unique(geno.table[,l])))
+  c(inds.genoed, num.unique.genos)
 })))
-names(loc.sum) <- c("locus", "genos", "num.haps")
+names(loc.sum) <- c("locus", "genos", "num.unique.genos")
 write.csv(loc.sum, file = paste0("results-raw/", project, ".", min.read.depth, "readsMin.locus.summary.csv"))
 
 save(geno.table, tgt, loc.sum, file = paste0("results-R/", project, ".", min.read.depth, "readsMin.geno.eval.rda"))
