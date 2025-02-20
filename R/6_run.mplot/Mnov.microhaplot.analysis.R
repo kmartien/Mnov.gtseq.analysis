@@ -1,12 +1,21 @@
 library(vcfR)
 library(microhaplot)
 
-run.label <- "all"
+# data_sets <- list('RunMS58.replicates.merged', 
+#                   'RunMS58.MS51.merged',
+#                   'RunMS58.MS51.MS45.90s.merged',
+#                   'RunMS58.MS51.MS45.90s.MS54.merged',
+#                   'RunMS58.MS51.MS45.90s.MS54.GTseq.val.merged',
+#                   'RunMS58.MS51.MS45.90s.MS54.GTseq.val.GTseq.prod.merged')
+# 
+# lapply(data_sets[5:6], function(run.label){
+
+run.label <- "final.sams"
 
 # for your dataset: customize the following paths
 # sam.path <- paste0("data-raw/sam.files/", run.label, ".all")
 # label.path <- "data-raw/mplot_labels/RunMS51.label.txt"
- vcf.path <- "vcf/RunMS58.targetSNPs.recode.vcf"
+vcf.path <- "vcf/Mnov_final_gtseq_locs.vcf"
 # app.path <- "~/Shiny/microhaplot"
 
 sam.path <- paste0("data-raw/sam.files/", run.label)
@@ -26,5 +35,5 @@ haplo.read.tbl <- prepHaplotFiles(run.label = run.label,
                                   vcf.path = vcf.path,
                                   app.path = app.path,
                                   n.jobs = 4) # use all the cores!
-
+#})
 runShinyHaplot(app.path)

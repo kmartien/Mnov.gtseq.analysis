@@ -2,7 +2,7 @@ library(strataG)
 library(genepop)
 library(tidyverse)
 library(ggplot2)
-load("data/data.for.PSRG.2024.rda")
+load("data/gtypes_all_minReads20.rda")
 
 #n.reps.pvals <- 10
 
@@ -21,7 +21,6 @@ g.10 <- g.stratified[,,which(getNumInd(g.stratified, by.strata = TRUE)$num.ind >
 
 g.pop.infile <- genepopWrite(g.10)
 
-#g.pop.outfile <- test_diff(g.pop.infile$fname, pairs = TRUE)
 g.pop.outfile <- Fst(g.pop.infile$fname, pairs = TRUE)
 
 

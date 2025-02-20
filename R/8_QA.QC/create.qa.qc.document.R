@@ -21,4 +21,4 @@ x$LABID <- Mnov.qa.qc.dat$LABID
 
 Mnov.qa.qc.dat <- full_join(Mnov.qa.qc.dat, x, by = "LABID")
 
-write.csv(Mnov.qa.qc.dat, file = "data-raw/Mnov GTseq QA QA.csv")
+write.csv(Mnov.qa.qc.dat, file = "data-raw/QA.QC/Mnov GTseq QA QA.csv")
