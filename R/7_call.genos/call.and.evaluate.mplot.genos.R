@@ -15,7 +15,7 @@ min.AR.het <- 3/10
 max.AR.homo <- 2/10
 min.read.depth <- 20
 num.locs <- 322
-min.genos.per.ind <- num.locs * 0.6
+min.genos.per.ind <- 100 #num.locs * 0.6
 
 tgt <- mplot2tgt(project = project, AB.min.het = AB.min.het, AB.max.homo = AB.max.homo,
                  min.read.depth = min.read.depth)
@@ -45,21 +45,14 @@ genos.to.check <- filter(tgt, questionable.hap == TRUE)
 
 ############################################################################
 ###### NEED TO DECIDE HOW TO DEAL WITH QUESTIONABLE HAPLOTYPES AT THIS POINT
-
-# Remove one locus with an indel that's screwing up genotypes and two samples
-# with evidence of contamination
-tgt <- filter(tgt, locus != 'Mnov_gtseq_526') |> 
-  filter(Indiv != 'z0037611' & Indiv != 'z0053845' & Indiv != 'z0195647')
-
-# Change genotypes for questionable haps
-genos_to_change <- read.csv('data-raw/genos_to_change.csv')
-for (i in 1:nrow(genos_to_change)){
-  idx <- which(tgt$locus == genos_to_change$locus[i] & tgt$Indiv == genos_to_change$Indiv[i])
-  tgt$gt[idx] <- genos_to_change$gt[i]
-}
-
-
 ############################################################################
+
+tgt <- filter(tgt, questionable.hap == FALSE)
+if(nrow(genos.to.check > 0)) {
+  print("Some samples with Ns or Xs in their haplotypes or more than 2 haplotypes")
+  print(paste0("Questionable genotypes saved to results-R/", project, ".genos.to.check.rda"))
+  save(genos.to.check, file = paste0("results-R/", project, ".genos.to.check.rda"))
+}
 
 # summarize individual data
 missing.data.ind <- data.frame(table(tgt$Indiv[!is.na(tgt$gt)])) %>%

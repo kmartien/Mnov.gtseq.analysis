@@ -1,0 +1,2112 @@
+
+
+----------------------------------------------------
+STRUCTURE by Pritchard, Stephens and Donnelly (2000)
+     and Falush, Stephens and Pritchard (2003)
+       Code by Pritchard, Falush and Hubisz
+             Version 2.3.4 (Jul 2012)
+----------------------------------------------------
+
+
+
+Command line arguments:   structure -m herd.structureRun/herd.structureRun.k1.r1_mainparams -e herd.structureRun/herd.structureRun.k1.r1_extraparams -i herd.structureRun/herd.structureRun.k1.r1_data -o herd.structureRun/herd.structureRun.k1.r1_out 
+Input File:    herd.structureRun/herd.structureRun.k1.r1_data
+
+Run parameters:
+   153 individuals
+   298 loci
+   1 populations assumed
+   1000 Burn-in period
+   10000 Reps
+
+
+--------------------------------------------
+Proportion of membership of each pre-defined
+ population in each of the 1 clusters
+
+Given    Inferred Clusters       Number of
+ Pop       1                    Individuals
+
+  1:     1.000                     77
+  2:     1.000                     76
+--------------------------------------------
+
+Allele-freq. divergence among pops (Net nucleotide distance),
+computed using point estimates of P.
+
+      1      
+ 1      -    
+
+Average distances (expected heterozygosity) between individuals in same cluster:
+cluster  1  : 0.4559 
+
+--------------------------------------------
+Estimated Ln Prob of Data   = -60102.7
+Mean value of ln likelihood = -60000.4
+Variance of ln likelihood   = 204.6
+
+Mean value of Fst_1         = 0.0077
+
+
+Inferred ancestry of individuals:
+        Label (%Miss) Pop:  Inferred clusters
+  1 z0011944    (0)    1 :  1.000 
+  2 z0016578   (20)    1 :  1.000 
+  3 z0018264    (0)    1 :  1.000 
+  4 z0029829   (13)    1 :  1.000 
+  5 z0029846    (0)    1 :  1.000 
+  6 z0029863    (1)    1 :  1.000 
+  7 z0029864    (8)    1 :  1.000 
+  8 z0037624   (20)    1 :  1.000 
+  9 z0038417    (7)    2 :  1.000 
+ 10 z0040308    (0)    2 :  1.000 
+ 11 z0040333    (1)    2 :  1.000 
+ 12 z0040357    (5)    2 :  1.000 
+ 13 z0040364    (0)    2 :  1.000 
+ 14 z0040387    (0)    2 :  1.000 
+ 15 z0040403   (15)    2 :  1.000 
+ 16 z0040439    (0)    2 :  1.000 
+ 17 z0040465   (20)    2 :  1.000 
+ 18 z0041026    (0)    2 :  1.000 
+ 19 z0041115    (7)    2 :  1.000 
+ 20 z0041153   (23)    2 :  1.000 
+ 21 z0041274    (1)    2 :  1.000 
+ 22 z0041465   (16)    2 :  1.000 
+ 23 z0041472    (2)    2 :  1.000 
+ 24 z0041480    (9)    2 :  1.000 
+ 25 z0041483    (0)    2 :  1.000 
+ 26 z0041494   (12)    2 :  1.000 
+ 27 z0041498    (1)    2 :  1.000 
+ 28 z0041501    (1)    2 :  1.000 
+ 29 z0041507    (6)    2 :  1.000 
+ 30 z0041512    (0)    2 :  1.000 
+ 31 z0041522   (15)    2 :  1.000 
+ 32 z0041527   (14)    2 :  1.000 
+ 33 z0043477    (0)    2 :  1.000 
+ 34 z0043478    (2)    2 :  1.000 
+ 35 z0043481    (0)    2 :  1.000 
+ 36 z0043489    (5)    2 :  1.000 
+ 37 z0043491   (12)    2 :  1.000 
+ 38 z0043493    (2)    2 :  1.000 
+ 39 z0043494    (1)    2 :  1.000 
+ 40 z0043498    (1)    2 :  1.000 
+ 41 z0043504    (7)    2 :  1.000 
+ 42 z0044017   (11)    2 :  1.000 
+ 43 z0044019   (14)    2 :  1.000 
+ 44 z0044023   (35)    2 :  1.000 
+ 45 z0044033    (0)    2 :  1.000 
+ 46 z0044042    (3)    2 :  1.000 
+ 47 z0044047   (24)    2 :  1.000 
+ 48 z0044064   (13)    2 :  1.000 
+ 49 z0045331    (5)    1 :  1.000 
+ 50 z0045332    (1)    1 :  1.000 
+ 51 z0045333    (6)    1 :  1.000 
+ 52 z0045337    (4)    1 :  1.000 
+ 53 z0045342   (12)    1 :  1.000 
+ 54 z0045350    (0)    1 :  1.000 
+ 55 z0045370    (0)    1 :  1.000 
+ 56 z0045401   (23)    1 :  1.000 
+ 57 z0045719    (0)    2 :  1.000 
+ 58 z0045720    (1)    2 :  1.000 
+ 59 z0045728    (0)    2 :  1.000 
+ 60 z0045731    (0)    2 :  1.000 
+ 61 z0045733    (0)    2 :  1.000 
+ 62 z0045736    (1)    2 :  1.000 
+ 63 z0045739    (1)    2 :  1.000 
+ 64 z0045740    (1)    2 :  1.000 
+ 65 z0045741    (0)    2 :  1.000 
+ 66 z0045742    (0)    2 :  1.000 
+ 67 z0045779    (0)    2 :  1.000 
+ 68 z0045781    (0)    2 :  1.000 
+ 69 z0045788    (5)    2 :  1.000 
+ 70 z0045789    (2)    2 :  1.000 
+ 71 z0045791    (4)    2 :  1.000 
+ 72 z0045792   (22)    1 :  1.000 
+ 73 z0051185    (0)    1 :  1.000 
+ 74 z0051324    (0)    1 :  1.000 
+ 75 z0051328    (1)    1 :  1.000 
+ 76 z0051380    (0)    1 :  1.000 
+ 77 z0051891    (0)    1 :  1.000 
+ 78 z0051893    (2)    1 :  1.000 
+ 79 z0051929    (1)    1 :  1.000 
+ 80 z0051947    (3)    1 :  1.000 
+ 81 z0052882    (1)    2 :  1.000 
+ 82 z0053020   (20)    2 :  1.000 
+ 83 z0053024   (12)    2 :  1.000 
+ 84 z0053025    (3)    2 :  1.000 
+ 85 z0053031    (0)    2 :  1.000 
+ 86 z0053032    (0)    2 :  1.000 
+ 87 z0053040    (5)    2 :  1.000 
+ 88 z0053071    (2)    2 :  1.000 
+ 89 z0053073    (1)    2 :  1.000 
+ 90 z0053083   (12)    2 :  1.000 
+ 91 z0053096    (0)    2 :  1.000 
+ 92 z0053100    (6)    2 :  1.000 
+ 93 z0053101    (0)    2 :  1.000 
+ 94 z0053102    (8)    2 :  1.000 
+ 95 z0053103    (0)    2 :  1.000 
+ 96 z0053131    (0)    2 :  1.000 
+ 97 z0053132    (0)    2 :  1.000 
+ 98 z0053133    (0)    2 :  1.000 
+ 99 z0053138    (0)    2 :  1.000 
+100 z0053142    (2)    2 :  1.000 
+101 z0053149    (0)    2 :  1.000 
+102 z0053754    (1)    1 :  1.000 
+103 z0053756    (1)    1 :  1.000 
+104 z0053758   (17)    1 :  1.000 
+105 z0053759    (0)    1 :  1.000 
+106 z0053842    (1)    1 :  1.000 
+107 z0053843    (6)    1 :  1.000 
+108 z0053844    (7)    1 :  1.000 
+109 z0053846    (2)    1 :  1.000 
+110 z0053847    (0)    1 :  1.000 
+111 z0053849    (1)    1 :  1.000 
+112 z0056374    (7)    1 :  1.000 
+113 z0056375    (0)    1 :  1.000 
+114 z0056377    (0)    1 :  1.000 
+115 z0056378    (0)    1 :  1.000 
+116 z0056382    (0)    1 :  1.000 
+117 z0056384    (3)    1 :  1.000 
+118 z0056386    (7)    1 :  1.000 
+119 z0056389    (0)    1 :  1.000 
+120 z0056391    (1)    1 :  1.000 
+121 z0056392   (11)    1 :  1.000 
+122 z0056393    (8)    1 :  1.000 
+123 z0056394    (0)    1 :  1.000 
+124 z0056395    (1)    1 :  1.000 
+125 z0056397    (0)    1 :  1.000 
+126 z0061980    (1)    1 :  1.000 
+127 z0066792    (2)    1 :  1.000 
+128 z0066805    (1)    1 :  1.000 
+129 z0101084    (7)    1 :  1.000 
+130 z0107101    (0)    1 :  1.000 
+131 z0108489    (0)    1 :  1.000 
+132 z0108513    (0)    1 :  1.000 
+133 z0133302   (16)    1 :  1.000 
+134 z0173485    (1)    1 :  1.000 
+135 z0175912    (0)    1 :  1.000 
+136 z0175916    (1)    1 :  1.000 
+137 z0175937    (1)    1 :  1.000 
+138 z0178348   (12)    1 :  1.000 
+139 z0187857    (1)    1 :  1.000 
+140 z0187860    (0)    1 :  1.000 
+141 z0187906    (9)    1 :  1.000 
+142 z0195726   (16)    1 :  1.000 
+143 z0196730    (3)    1 :  1.000 
+144 z0196733   (13)    1 :  1.000 
+145 z0196746    (1)    1 :  1.000 
+146 z0196758    (1)    1 :  1.000 
+147 z0196783    (0)    1 :  1.000 
+148 z0196794    (2)    1 :  1.000 
+149 z0196804   (14)    1 :  1.000 
+150 z0196810    (1)    1 :  1.000 
+151 z0196811    (0)    1 :  1.000 
+152 z0197662    (2)    1 :  1.000 
+153 z0197665    (2)    1 :  1.000 
+
+
+Estimated Allele Frequencies in each cluster
+First column gives estimated ancestral frequencies
+
+
+Locus 1 : Mnov_gtseq_1 
+2 alleles
+0.0% missing data
+   1   (0.627) 0.630 
+   0   (0.373) 0.370 
+
+Locus 2 : Mnov_gtseq_10 
+2 alleles
+0.7% missing data
+   0   (0.812) 0.817 
+   1   (0.188) 0.183 
+
+Locus 3 : Mnov_gtseq_102 
+2 alleles
+0.7% missing data
+   0   (0.600) 0.601 
+   1   (0.400) 0.399 
+
+Locus 4 : Mnov_gtseq_104 
+2 alleles
+0.0% missing data
+   0   (0.833) 0.838 
+   1   (0.167) 0.162 
+
+Locus 5 : Mnov_gtseq_106 
+2 alleles
+15.7% missing data
+   0   (0.223) 0.219 
+   1   (0.777) 0.781 
+
+Locus 6 : Mnov_gtseq_107 
+2 alleles
+37.9% missing data
+   0   (0.726) 0.729 
+   1   (0.274) 0.271 
+
+Locus 7 : Mnov_gtseq_112 
+2 alleles
+0.0% missing data
+   1   (0.413) 0.412 
+   0   (0.587) 0.588 
+
+Locus 8 : Mnov_gtseq_113 
+2 alleles
+0.7% missing data
+   0   (0.300) 0.298 
+   1   (0.700) 0.702 
+
+Locus 9 : Mnov_gtseq_114 
+3 alleles
+4.6% missing data
+   1   (0.530) 0.533 
+   0   (0.433) 0.436 
+   2   (0.038) 0.031 
+
+Locus 10 : Mnov_gtseq_117 
+2 alleles
+26.8% missing data
+   0   (0.653) 0.655 
+   1   (0.347) 0.345 
+
+Locus 11 : Mnov_gtseq_12 
+2 alleles
+0.0% missing data
+   0   (0.400) 0.399 
+   1   (0.600) 0.601 
+
+Locus 12 : Mnov_gtseq_124 
+4 alleles
+7.8% missing data
+   3   (0.722) 0.735 
+   2   (0.235) 0.234 
+   1   (0.031) 0.024 
+   0   (0.012) 0.006 
+
+Locus 13 : Mnov_gtseq_125 
+3 alleles
+1.3% missing data
+   2   (0.614) 0.620 
+   1   (0.267) 0.265 
+   0   (0.120) 0.115 
+
+Locus 14 : Mnov_gtseq_126 
+2 alleles
+0.0% missing data
+   0   (0.327) 0.325 
+   1   (0.673) 0.675 
+
+Locus 15 : Mnov_gtseq_127 
+2 alleles
+7.2% missing data
+   0   (0.620) 0.622 
+   1   (0.380) 0.378 
+
+Locus 16 : Mnov_gtseq_128 
+2 alleles
+34.6% missing data
+   0   (0.734) 0.738 
+   1   (0.266) 0.262 
+
+Locus 17 : Mnov_gtseq_129 
+3 alleles
+0.7% missing data
+   2   (0.189) 0.186 
+   1   (0.266) 0.264 
+   0   (0.545) 0.550 
+
+Locus 18 : Mnov_gtseq_13 
+3 alleles
+0.0% missing data
+   0   (0.467) 0.470 
+   2   (0.138) 0.133 
+   1   (0.395) 0.398 
+
+Locus 19 : Mnov_gtseq_130 
+2 alleles
+31.4% missing data
+   0   (0.490) 0.490 
+   1   (0.510) 0.510 
+
+Locus 20 : Mnov_gtseq_135 
+2 alleles
+0.0% missing data
+   1   (0.542) 0.542 
+   0   (0.458) 0.458 
+
+Locus 21 : Mnov_gtseq_138 
+3 alleles
+0.0% missing data
+   1   (0.542) 0.546 
+   0   (0.278) 0.276 
+   2   (0.180) 0.177 
+
+Locus 22 : Mnov_gtseq_140 
+2 alleles
+1.3% missing data
+   1   (0.464) 0.464 
+   0   (0.536) 0.536 
+
+Locus 23 : Mnov_gtseq_141 
+2 alleles
+0.0% missing data
+   0   (0.596) 0.598 
+   1   (0.404) 0.402 
+
+Locus 24 : Mnov_gtseq_143 
+2 alleles
+2.0% missing data
+   0   (0.418) 0.417 
+   1   (0.582) 0.583 
+
+Locus 25 : Mnov_gtseq_145 
+2 alleles
+0.7% missing data
+   0   (0.483) 0.483 
+   1   (0.517) 0.517 
+
+Locus 26 : Mnov_gtseq_147 
+3 alleles
+27.5% missing data
+   0   (0.737) 0.746 
+   2   (0.124) 0.120 
+   1   (0.139) 0.134 
+
+Locus 27 : Mnov_gtseq_148 
+3 alleles
+12.4% missing data
+   0   (0.271) 0.270 
+   1   (0.440) 0.443 
+   2   (0.288) 0.288 
+
+Locus 28 : Mnov_gtseq_149 
+2 alleles
+0.0% missing data
+   0   (0.595) 0.597 
+   1   (0.405) 0.403 
+
+Locus 29 : Mnov_gtseq_15 
+2 alleles
+0.0% missing data
+   0   (0.429) 0.428 
+   1   (0.571) 0.572 
+
+Locus 30 : Mnov_gtseq_152 
+2 alleles
+0.7% missing data
+   0   (0.320) 0.317 
+   1   (0.680) 0.683 
+
+Locus 31 : Mnov_gtseq_154 
+3 alleles
+2.0% missing data
+   1   (0.479) 0.482 
+   0   (0.326) 0.327 
+   2   (0.195) 0.191 
+
+Locus 32 : Mnov_gtseq_157 
+2 alleles
+0.0% missing data
+   0   (0.458) 0.458 
+   1   (0.542) 0.542 
+
+Locus 33 : Mnov_gtseq_158 
+2 alleles
+0.7% missing data
+   1   (0.638) 0.641 
+   0   (0.362) 0.359 
+
+Locus 34 : Mnov_gtseq_159 
+3 alleles
+25.5% missing data
+   1   (0.254) 0.251 
+   0   (0.573) 0.580 
+   2   (0.173) 0.169 
+
+Locus 35 : Mnov_gtseq_16 
+2 alleles
+0.0% missing data
+   0   (0.609) 0.613 
+   1   (0.391) 0.387 
+
+Locus 36 : Mnov_gtseq_160 
+2 alleles
+0.0% missing data
+   0   (0.528) 0.529 
+   1   (0.472) 0.471 
+
+Locus 37 : Mnov_gtseq_161 
+2 alleles
+1.3% missing data
+   1   (0.784) 0.789 
+   0   (0.216) 0.211 
+
+Locus 38 : Mnov_gtseq_167 
+3 alleles
+0.0% missing data
+   2   (0.764) 0.774 
+   0   (0.162) 0.159 
+   1   (0.074) 0.068 
+
+Locus 39 : Mnov_gtseq_17 
+2 alleles
+0.0% missing data
+   0   (0.504) 0.504 
+   1   (0.496) 0.496 
+
+Locus 40 : Mnov_gtseq_170 
+2 alleles
+0.0% missing data
+   1   (0.749) 0.753 
+   0   (0.251) 0.247 
+
+Locus 41 : Mnov_gtseq_171 
+3 alleles
+43.1% missing data
+   2   (0.544) 0.549 
+   0   (0.359) 0.361 
+   1   (0.097) 0.090 
+
+Locus 42 : Mnov_gtseq_173 
+3 alleles
+15.7% missing data
+   0   (0.533) 0.537 
+   2   (0.395) 0.398 
+   1   (0.072) 0.065 
+
+Locus 43 : Mnov_gtseq_174 
+2 alleles
+1.3% missing data
+   0   (0.346) 0.343 
+   1   (0.654) 0.657 
+
+Locus 44 : Mnov_gtseq_180 
+3 alleles
+15.0% missing data
+   2   (0.243) 0.243 
+   1   (0.697) 0.704 
+   0   (0.060) 0.053 
+
+Locus 45 : Mnov_gtseq_182 
+2 alleles
+8.5% missing data
+   0   (0.782) 0.787 
+   1   (0.218) 0.213 
+
+Locus 46 : Mnov_gtseq_186 
+3 alleles
+15.0% missing data
+   1   (0.472) 0.475 
+   0   (0.453) 0.457 
+   2   (0.075) 0.068 
+
+Locus 47 : Mnov_gtseq_187 
+2 alleles
+3.3% missing data
+   0   (0.398) 0.396 
+   1   (0.602) 0.604 
+
+Locus 48 : Mnov_gtseq_188 
+2 alleles
+15.0% missing data
+   0   (0.538) 0.538 
+   1   (0.462) 0.462 
+
+Locus 49 : Mnov_gtseq_189 
+2 alleles
+3.3% missing data
+   1   (0.553) 0.554 
+   0   (0.447) 0.446 
+
+Locus 50 : Mnov_gtseq_19 
+3 alleles
+0.0% missing data
+   0   (0.109) 0.104 
+   1   (0.817) 0.828 
+   2   (0.074) 0.068 
+
+Locus 51 : Mnov_gtseq_190 
+2 alleles
+0.0% missing data
+   0   (0.606) 0.607 
+   1   (0.394) 0.393 
+
+Locus 52 : Mnov_gtseq_192 
+2 alleles
+19.0% missing data
+   0   (0.809) 0.815 
+   1   (0.191) 0.185 
+
+Locus 53 : Mnov_gtseq_193 
+2 alleles
+0.0% missing data
+   1   (0.282) 0.279 
+   0   (0.718) 0.721 
+
+Locus 54 : Mnov_gtseq_195 
+3 alleles
+0.0% missing data
+   1   (0.524) 0.528 
+   2   (0.456) 0.459 
+   0   (0.020) 0.013 
+
+Locus 55 : Mnov_gtseq_196 
+2 alleles
+0.0% missing data
+   0   (0.301) 0.299 
+   1   (0.699) 0.701 
+
+Locus 56 : Mnov_gtseq_197 
+3 alleles
+0.0% missing data
+   1   (0.391) 0.391 
+   2   (0.159) 0.155 
+   0   (0.450) 0.453 
+
+Locus 57 : Mnov_gtseq_2 
+3 alleles
+0.0% missing data
+   2   (0.792) 0.803 
+   1   (0.033) 0.026 
+   0   (0.176) 0.172 
+
+Locus 58 : Mnov_gtseq_200 
+2 alleles
+1.3% missing data
+   0   (0.474) 0.474 
+   1   (0.526) 0.526 
+
+Locus 59 : Mnov_gtseq_201 
+4 alleles
+0.0% missing data
+   0   (0.523) 0.532 
+   3   (0.156) 0.152 
+   1   (0.145) 0.142 
+   2   (0.176) 0.174 
+
+Locus 60 : Mnov_gtseq_202 
+2 alleles
+0.0% missing data
+   1   (0.534) 0.535 
+   0   (0.466) 0.465 
+
+Locus 61 : Mnov_gtseq_204 
+2 alleles
+3.9% missing data
+   1   (0.512) 0.513 
+   0   (0.488) 0.487 
+
+Locus 62 : Mnov_gtseq_205 
+4 alleles
+0.0% missing data
+   2   (0.683) 0.697 
+   0   (0.226) 0.226 
+   3   (0.045) 0.039 
+   1   (0.046) 0.039 
+
+Locus 63 : Mnov_gtseq_208 
+2 alleles
+0.0% missing data
+   0   (0.561) 0.562 
+   1   (0.439) 0.438 
+
+Locus 64 : Mnov_gtseq_209 
+3 alleles
+0.0% missing data
+   0   (0.447) 0.450 
+   2   (0.489) 0.492 
+   1   (0.064) 0.058 
+
+Locus 65 : Mnov_gtseq_21 
+2 alleles
+0.0% missing data
+   0   (0.479) 0.480 
+   1   (0.521) 0.520 
+
+Locus 66 : Mnov_gtseq_210 
+2 alleles
+2.6% missing data
+   1   (0.677) 0.679 
+   0   (0.323) 0.321 
+
+Locus 67 : Mnov_gtseq_211 
+2 alleles
+0.0% missing data
+   0   (0.362) 0.360 
+   1   (0.638) 0.640 
+
+Locus 68 : Mnov_gtseq_213 
+2 alleles
+3.9% missing data
+   1   (0.504) 0.503 
+   0   (0.496) 0.497 
+
+Locus 69 : Mnov_gtseq_214 
+2 alleles
+3.3% missing data
+   0   (0.554) 0.556 
+   1   (0.446) 0.444 
+
+Locus 70 : Mnov_gtseq_215 
+2 alleles
+0.0% missing data
+   1   (0.562) 0.562 
+   0   (0.438) 0.438 
+
+Locus 71 : Mnov_gtseq_216 
+3 alleles
+0.0% missing data
+   2   (0.527) 0.530 
+   1   (0.457) 0.460 
+   0   (0.016) 0.010 
+
+Locus 72 : Mnov_gtseq_217 
+2 alleles
+22.2% missing data
+   1   (0.763) 0.767 
+   0   (0.237) 0.233 
+
+Locus 73 : Mnov_gtseq_218 
+2 alleles
+0.0% missing data
+   0   (0.651) 0.653 
+   1   (0.349) 0.347 
+
+Locus 74 : Mnov_gtseq_22 
+4 alleles
+2.0% missing data
+   1   (0.151) 0.148 
+   2   (0.579) 0.589 
+   0   (0.208) 0.207 
+   3   (0.061) 0.056 
+
+Locus 75 : Mnov_gtseq_220 
+3 alleles
+0.0% missing data
+   0   (0.558) 0.563 
+   1   (0.409) 0.411 
+   2   (0.033) 0.026 
+
+Locus 76 : Mnov_gtseq_223 
+2 alleles
+0.7% missing data
+   0   (0.632) 0.634 
+   1   (0.368) 0.366 
+
+Locus 77 : Mnov_gtseq_224 
+3 alleles
+0.0% missing data
+   0   (0.249) 0.246 
+   1   (0.711) 0.721 
+   2   (0.040) 0.033 
+
+Locus 78 : Mnov_gtseq_225 
+2 alleles
+0.0% missing data
+   1   (0.489) 0.487 
+   0   (0.511) 0.513 
+
+Locus 79 : Mnov_gtseq_227 
+2 alleles
+0.0% missing data
+   0   (0.588) 0.589 
+   1   (0.412) 0.411 
+
+Locus 80 : Mnov_gtseq_229 
+2 alleles
+0.0% missing data
+   1   (0.572) 0.574 
+   0   (0.428) 0.426 
+
+Locus 81 : Mnov_gtseq_232 
+2 alleles
+0.0% missing data
+   0   (0.510) 0.510 
+   1   (0.490) 0.490 
+
+Locus 82 : Mnov_gtseq_234 
+2 alleles
+8.5% missing data
+   0   (0.743) 0.748 
+   1   (0.257) 0.252 
+
+Locus 83 : Mnov_gtseq_235 
+2 alleles
+0.0% missing data
+   0   (0.797) 0.802 
+   1   (0.203) 0.198 
+
+Locus 84 : Mnov_gtseq_238 
+2 alleles
+0.0% missing data
+   0   (0.705) 0.708 
+   1   (0.295) 0.292 
+
+Locus 85 : Mnov_gtseq_239 
+2 alleles
+0.0% missing data
+   0   (0.739) 0.743 
+   1   (0.261) 0.257 
+
+Locus 86 : Mnov_gtseq_241 
+2 alleles
+0.0% missing data
+   0   (0.868) 0.874 
+   1   (0.132) 0.126 
+
+Locus 87 : Mnov_gtseq_243 
+2 alleles
+0.0% missing data
+   0   (0.556) 0.558 
+   1   (0.444) 0.442 
+
+Locus 88 : Mnov_gtseq_244 
+2 alleles
+0.0% missing data
+   1   (0.669) 0.672 
+   0   (0.331) 0.328 
+
+Locus 89 : Mnov_gtseq_245 
+2 alleles
+15.0% missing data
+   0   (0.434) 0.435 
+   1   (0.566) 0.565 
+
+Locus 90 : Mnov_gtseq_246 
+2 alleles
+0.0% missing data
+   1   (0.521) 0.520 
+   0   (0.479) 0.480 
+
+Locus 91 : Mnov_gtseq_247 
+2 alleles
+2.6% missing data
+   1   (0.753) 0.757 
+   0   (0.247) 0.243 
+
+Locus 92 : Mnov_gtseq_248 
+2 alleles
+0.7% missing data
+   1   (0.757) 0.762 
+   0   (0.243) 0.238 
+
+Locus 93 : Mnov_gtseq_25 
+2 alleles
+0.0% missing data
+   1   (0.503) 0.503 
+   0   (0.497) 0.497 
+
+Locus 94 : Mnov_gtseq_250 
+2 alleles
+2.6% missing data
+   0   (0.755) 0.760 
+   1   (0.245) 0.240 
+
+Locus 95 : Mnov_gtseq_251 
+2 alleles
+0.0% missing data
+   0   (0.808) 0.812 
+   1   (0.192) 0.188 
+
+Locus 96 : Mnov_gtseq_253 
+2 alleles
+17.0% missing data
+   0   (0.490) 0.489 
+   1   (0.510) 0.511 
+
+Locus 97 : Mnov_gtseq_254 
+2 alleles
+0.0% missing data
+   1   (0.941) 0.948 
+   0   (0.059) 0.052 
+
+Locus 98 : Mnov_gtseq_255 
+3 alleles
+0.0% missing data
+   1   (0.237) 0.236 
+   2   (0.378) 0.379 
+   0   (0.385) 0.385 
+
+Locus 99 : Mnov_gtseq_257 
+2 alleles
+0.0% missing data
+   1   (0.391) 0.389 
+   0   (0.609) 0.611 
+
+Locus 100 : Mnov_gtseq_258 
+2 alleles
+0.0% missing data
+   0   (0.536) 0.536 
+   1   (0.464) 0.464 
+
+Locus 101 : Mnov_gtseq_26 
+2 alleles
+0.0% missing data
+   1   (0.919) 0.925 
+   0   (0.081) 0.075 
+
+Locus 102 : Mnov_gtseq_260 
+2 alleles
+0.7% missing data
+   1   (0.197) 0.193 
+   0   (0.803) 0.807 
+
+Locus 103 : Mnov_gtseq_261 
+3 alleles
+0.7% missing data
+   0   (0.451) 0.454 
+   2   (0.220) 0.218 
+   1   (0.328) 0.328 
+
+Locus 104 : Mnov_gtseq_262 
+3 alleles
+1.3% missing data
+   0   (0.473) 0.476 
+   1   (0.405) 0.406 
+   2   (0.122) 0.118 
+
+Locus 105 : Mnov_gtseq_263 
+2 alleles
+0.0% missing data
+   1   (0.833) 0.838 
+   0   (0.167) 0.162 
+
+Locus 106 : Mnov_gtseq_265 
+2 alleles
+0.0% missing data
+   0   (0.468) 0.467 
+   1   (0.532) 0.533 
+
+Locus 107 : Mnov_gtseq_268 
+2 alleles
+0.0% missing data
+   0   (0.541) 0.542 
+   1   (0.459) 0.458 
+
+Locus 108 : Mnov_gtseq_269 
+2 alleles
+0.7% missing data
+   0   (0.490) 0.490 
+   1   (0.510) 0.510 
+
+Locus 109 : Mnov_gtseq_270 
+2 alleles
+9.2% missing data
+   1   (0.821) 0.825 
+   0   (0.179) 0.175 
+
+Locus 110 : Mnov_gtseq_271 
+3 alleles
+11.1% missing data
+   2   (0.347) 0.346 
+   1   (0.621) 0.629 
+   0   (0.032) 0.025 
+
+Locus 111 : Mnov_gtseq_273 
+2 alleles
+1.3% missing data
+   0   (0.438) 0.437 
+   1   (0.562) 0.563 
+
+Locus 112 : Mnov_gtseq_274 
+2 alleles
+0.0% missing data
+   0   (0.529) 0.529 
+   1   (0.471) 0.471 
+
+Locus 113 : Mnov_gtseq_275 
+3 alleles
+15.0% missing data
+   2   (0.751) 0.761 
+   1   (0.231) 0.228 
+   0   (0.017) 0.011 
+
+Locus 114 : Mnov_gtseq_277 
+2 alleles
+0.0% missing data
+   0   (0.827) 0.832 
+   1   (0.173) 0.168 
+
+Locus 115 : Mnov_gtseq_278 
+2 alleles
+0.0% missing data
+   0   (0.907) 0.913 
+   1   (0.093) 0.087 
+
+Locus 116 : Mnov_gtseq_28 
+2 alleles
+0.7% missing data
+   0   (0.810) 0.814 
+   1   (0.190) 0.186 
+
+Locus 117 : Mnov_gtseq_281 
+3 alleles
+1.3% missing data
+   0   (0.120) 0.115 
+   2   (0.853) 0.865 
+   1   (0.027) 0.020 
+
+Locus 118 : Mnov_gtseq_283 
+2 alleles
+15.7% missing data
+   0   (0.747) 0.750 
+   1   (0.253) 0.250 
+
+Locus 119 : Mnov_gtseq_284 
+2 alleles
+0.0% missing data
+   0   (0.360) 0.357 
+   1   (0.640) 0.643 
+
+Locus 120 : Mnov_gtseq_285 
+3 alleles
+0.0% missing data
+   2   (0.565) 0.570 
+   0   (0.187) 0.184 
+   1   (0.247) 0.246 
+
+Locus 121 : Mnov_gtseq_287 
+2 alleles
+0.0% missing data
+   0   (0.768) 0.772 
+   1   (0.232) 0.228 
+
+Locus 122 : Mnov_gtseq_288 
+3 alleles
+19.0% missing data
+   0   (0.591) 0.597 
+   2   (0.370) 0.370 
+   1   (0.039) 0.032 
+
+Locus 123 : Mnov_gtseq_289 
+4 alleles
+0.0% missing data
+   0   (0.425) 0.432 
+   1   (0.431) 0.436 
+   2   (0.117) 0.113 
+   3   (0.026) 0.019 
+
+Locus 124 : Mnov_gtseq_291 
+4 alleles
+0.0% missing data
+   0   (0.193) 0.190 
+   3   (0.641) 0.654 
+   1   (0.140) 0.136 
+   2   (0.026) 0.019 
+
+Locus 125 : Mnov_gtseq_298 
+2 alleles
+35.3% missing data
+   0   (0.378) 0.376 
+   1   (0.622) 0.624 
+
+Locus 126 : Mnov_gtseq_299 
+2 alleles
+0.0% missing data
+   1   (0.550) 0.551 
+   0   (0.450) 0.449 
+
+Locus 127 : Mnov_gtseq_30 
+2 alleles
+18.3% missing data
+   0   (0.956) 0.964 
+   1   (0.044) 0.036 
+
+Locus 128 : Mnov_gtseq_300 
+2 alleles
+3.9% missing data
+   0   (0.617) 0.619 
+   1   (0.383) 0.381 
+
+Locus 129 : Mnov_gtseq_305 
+2 alleles
+8.5% missing data
+   0   (0.858) 0.864 
+   1   (0.142) 0.136 
+
+Locus 130 : Mnov_gtseq_307 
+2 alleles
+2.0% missing data
+   1   (0.481) 0.483 
+   0   (0.519) 0.517 
+
+Locus 131 : Mnov_gtseq_308 
+2 alleles
+0.0% missing data
+   0   (0.561) 0.562 
+   1   (0.439) 0.438 
+
+Locus 132 : Mnov_gtseq_310 
+2 alleles
+9.2% missing data
+   0   (0.886) 0.892 
+   1   (0.114) 0.108 
+
+Locus 133 : Mnov_gtseq_311 
+2 alleles
+0.0% missing data
+   0   (0.295) 0.292 
+   1   (0.705) 0.708 
+
+Locus 134 : Mnov_gtseq_313 
+2 alleles
+0.0% missing data
+   0   (0.206) 0.201 
+   1   (0.794) 0.799 
+
+Locus 135 : Mnov_gtseq_314 
+2 alleles
+0.0% missing data
+   0   (0.517) 0.516 
+   1   (0.483) 0.484 
+
+Locus 136 : Mnov_gtseq_315 
+2 alleles
+0.0% missing data
+   1   (0.548) 0.549 
+   0   (0.452) 0.451 
+
+Locus 137 : Mnov_gtseq_317 
+3 alleles
+23.5% missing data
+   0   (0.536) 0.541 
+   2   (0.074) 0.068 
+   1   (0.391) 0.392 
+
+Locus 138 : Mnov_gtseq_318 
+2 alleles
+3.9% missing data
+   1   (0.551) 0.551 
+   0   (0.449) 0.449 
+
+Locus 139 : Mnov_gtseq_320 
+2 alleles
+3.9% missing data
+   0   (0.643) 0.646 
+   1   (0.357) 0.354 
+
+Locus 140 : Mnov_gtseq_321 
+2 alleles
+0.0% missing data
+   1   (0.843) 0.848 
+   0   (0.157) 0.152 
+
+Locus 141 : Mnov_gtseq_322 
+2 alleles
+0.7% missing data
+   1   (0.522) 0.523 
+   0   (0.478) 0.477 
+
+Locus 142 : Mnov_gtseq_323 
+3 alleles
+0.0% missing data
+   0   (0.438) 0.441 
+   2   (0.137) 0.132 
+   1   (0.425) 0.427 
+
+Locus 143 : Mnov_gtseq_326 
+2 alleles
+0.7% missing data
+   0   (0.583) 0.585 
+   1   (0.417) 0.415 
+
+Locus 144 : Mnov_gtseq_328 
+2 alleles
+0.0% missing data
+   0   (0.397) 0.396 
+   1   (0.603) 0.604 
+
+Locus 145 : Mnov_gtseq_33 
+2 alleles
+0.0% missing data
+   1   (0.392) 0.390 
+   0   (0.608) 0.610 
+
+Locus 146 : Mnov_gtseq_332 
+2 alleles
+10.5% missing data
+   0   (0.303) 0.300 
+   1   (0.697) 0.700 
+
+Locus 147 : Mnov_gtseq_333 
+2 alleles
+1.3% missing data
+   0   (0.316) 0.313 
+   1   (0.684) 0.687 
+
+Locus 148 : Mnov_gtseq_334 
+2 alleles
+0.0% missing data
+   0   (0.764) 0.767 
+   1   (0.236) 0.233 
+
+Locus 149 : Mnov_gtseq_335 
+2 alleles
+0.0% missing data
+   0   (0.341) 0.338 
+   1   (0.659) 0.662 
+
+Locus 150 : Mnov_gtseq_337 
+3 alleles
+12.4% missing data
+   1   (0.246) 0.244 
+   2   (0.528) 0.532 
+   0   (0.226) 0.225 
+
+Locus 151 : Mnov_gtseq_339 
+2 alleles
+0.7% missing data
+   0   (0.529) 0.530 
+   1   (0.471) 0.470 
+
+Locus 152 : Mnov_gtseq_340 
+2 alleles
+0.0% missing data
+   0   (0.561) 0.562 
+   1   (0.439) 0.438 
+
+Locus 153 : Mnov_gtseq_341 
+2 alleles
+0.0% missing data
+   0   (0.200) 0.195 
+   1   (0.800) 0.805 
+
+Locus 154 : Mnov_gtseq_342 
+2 alleles
+11.1% missing data
+   0   (0.474) 0.474 
+   1   (0.526) 0.526 
+
+Locus 155 : Mnov_gtseq_344 
+2 alleles
+0.0% missing data
+   1   (0.381) 0.380 
+   0   (0.619) 0.620 
+
+Locus 156 : Mnov_gtseq_345 
+2 alleles
+0.0% missing data
+   0   (0.769) 0.773 
+   1   (0.231) 0.227 
+
+Locus 157 : Mnov_gtseq_347 
+2 alleles
+0.0% missing data
+   0   (0.266) 0.263 
+   1   (0.734) 0.737 
+
+Locus 158 : Mnov_gtseq_350 
+2 alleles
+35.9% missing data
+   1   (0.603) 0.605 
+   0   (0.397) 0.395 
+
+Locus 159 : Mnov_gtseq_352 
+2 alleles
+1.3% missing data
+   0   (0.498) 0.497 
+   1   (0.502) 0.503 
+
+Locus 160 : Mnov_gtseq_353 
+2 alleles
+0.0% missing data
+   1   (0.545) 0.546 
+   0   (0.455) 0.454 
+
+Locus 161 : Mnov_gtseq_356 
+2 alleles
+0.0% missing data
+   0   (0.809) 0.815 
+   1   (0.191) 0.185 
+
+Locus 162 : Mnov_gtseq_357 
+2 alleles
+2.6% missing data
+   0   (0.484) 0.483 
+   1   (0.516) 0.517 
+
+Locus 163 : Mnov_gtseq_359 
+2 alleles
+19.0% missing data
+   1   (0.860) 0.864 
+   0   (0.140) 0.136 
+
+Locus 164 : Mnov_gtseq_361 
+4 alleles
+13.1% missing data
+   0   (0.346) 0.348 
+   3   (0.446) 0.452 
+   2   (0.169) 0.167 
+   1   (0.039) 0.033 
+
+Locus 165 : Mnov_gtseq_363 
+2 alleles
+7.2% missing data
+   0   (0.283) 0.280 
+   1   (0.717) 0.720 
+
+Locus 166 : Mnov_gtseq_364 
+2 alleles
+18.3% missing data
+   0   (0.465) 0.464 
+   1   (0.535) 0.536 
+
+Locus 167 : Mnov_gtseq_366 
+3 alleles
+0.7% missing data
+   2   (0.559) 0.564 
+   1   (0.172) 0.169 
+   0   (0.269) 0.267 
+
+Locus 168 : Mnov_gtseq_368 
+3 alleles
+13.1% missing data
+   0   (0.541) 0.546 
+   1   (0.371) 0.372 
+   2   (0.088) 0.082 
+
+Locus 169 : Mnov_gtseq_37 
+4 alleles
+0.0% missing data
+   0   (0.322) 0.323 
+   2   (0.295) 0.297 
+   3   (0.191) 0.190 
+   1   (0.192) 0.191 
+
+Locus 170 : Mnov_gtseq_370 
+2 alleles
+0.7% missing data
+   1   (0.553) 0.555 
+   0   (0.447) 0.445 
+
+Locus 171 : Mnov_gtseq_371 
+3 alleles
+13.1% missing data
+   1   (0.498) 0.502 
+   2   (0.430) 0.431 
+   0   (0.073) 0.067 
+
+Locus 172 : Mnov_gtseq_372 
+2 alleles
+0.7% missing data
+   1   (0.539) 0.539 
+   0   (0.461) 0.461 
+
+Locus 173 : Mnov_gtseq_373 
+2 alleles
+8.5% missing data
+   1   (0.801) 0.805 
+   0   (0.199) 0.195 
+
+Locus 174 : Mnov_gtseq_374 
+2 alleles
+12.4% missing data
+   0   (0.465) 0.463 
+   1   (0.535) 0.537 
+
+Locus 175 : Mnov_gtseq_377 
+2 alleles
+3.3% missing data
+   1   (0.581) 0.584 
+   0   (0.419) 0.416 
+
+Locus 176 : Mnov_gtseq_378 
+4 alleles
+0.0% missing data
+   1   (0.548) 0.558 
+   2   (0.020) 0.013 
+   0   (0.268) 0.268 
+   3   (0.164) 0.161 
+
+Locus 177 : Mnov_gtseq_38 
+2 alleles
+0.0% missing data
+   0   (0.226) 0.221 
+   1   (0.774) 0.779 
+
+Locus 178 : Mnov_gtseq_380 
+2 alleles
+0.7% missing data
+   0   (0.835) 0.840 
+   1   (0.165) 0.160 
+
+Locus 179 : Mnov_gtseq_383 
+2 alleles
+5.2% missing data
+   0   (0.901) 0.908 
+   1   (0.099) 0.092 
+
+Locus 180 : Mnov_gtseq_384 
+2 alleles
+5.2% missing data
+   1   (0.559) 0.559 
+   0   (0.441) 0.441 
+
+Locus 181 : Mnov_gtseq_386 
+2 alleles
+9.8% missing data
+   1   (0.529) 0.529 
+   0   (0.471) 0.471 
+
+Locus 182 : Mnov_gtseq_388 
+2 alleles
+33.3% missing data
+   0   (0.430) 0.428 
+   1   (0.570) 0.572 
+
+Locus 183 : Mnov_gtseq_39 
+2 alleles
+0.0% missing data
+   0   (0.547) 0.546 
+   1   (0.453) 0.454 
+
+Locus 184 : Mnov_gtseq_394 
+2 alleles
+2.0% missing data
+   0   (0.300) 0.298 
+   1   (0.700) 0.702 
+
+Locus 185 : Mnov_gtseq_397 
+2 alleles
+1.3% missing data
+   1   (0.744) 0.748 
+   0   (0.256) 0.252 
+
+Locus 186 : Mnov_gtseq_398 
+3 alleles
+0.0% missing data
+   1   (0.406) 0.408 
+   2   (0.571) 0.576 
+   0   (0.024) 0.016 
+
+Locus 187 : Mnov_gtseq_399 
+2 alleles
+0.0% missing data
+   1   (0.494) 0.493 
+   0   (0.506) 0.507 
+
+Locus 188 : Mnov_gtseq_40 
+2 alleles
+0.0% missing data
+   1   (0.841) 0.847 
+   0   (0.159) 0.153 
+
+Locus 189 : Mnov_gtseq_400 
+2 alleles
+9.8% missing data
+   0   (0.484) 0.482 
+   1   (0.516) 0.518 
+
+Locus 190 : Mnov_gtseq_401 
+3 alleles
+0.0% missing data
+   1   (0.498) 0.502 
+   2   (0.194) 0.191 
+   0   (0.308) 0.308 
+
+Locus 191 : Mnov_gtseq_402 
+2 alleles
+0.7% missing data
+   1   (0.557) 0.558 
+   0   (0.443) 0.442 
+
+Locus 192 : Mnov_gtseq_405 
+3 alleles
+1.3% missing data
+   0   (0.795) 0.807 
+   1   (0.123) 0.118 
+   2   (0.082) 0.075 
+
+Locus 193 : Mnov_gtseq_406 
+2 alleles
+5.2% missing data
+   0   (0.518) 0.520 
+   1   (0.482) 0.480 
+
+Locus 194 : Mnov_gtseq_407 
+3 alleles
+4.6% missing data
+   1   (0.468) 0.471 
+   2   (0.465) 0.468 
+   0   (0.067) 0.061 
+
+Locus 195 : Mnov_gtseq_41 
+2 alleles
+0.0% missing data
+   0   (0.739) 0.743 
+   1   (0.261) 0.257 
+
+Locus 196 : Mnov_gtseq_410 
+2 alleles
+3.3% missing data
+   0   (0.416) 0.415 
+   1   (0.584) 0.585 
+
+Locus 197 : Mnov_gtseq_413 
+2 alleles
+0.0% missing data
+   0   (0.916) 0.922 
+   1   (0.084) 0.078 
+
+Locus 198 : Mnov_gtseq_415 
+2 alleles
+0.7% missing data
+   0   (0.480) 0.480 
+   1   (0.520) 0.520 
+
+Locus 199 : Mnov_gtseq_416 
+2 alleles
+49.7% missing data
+   1   (0.803) 0.808 
+   0   (0.197) 0.192 
+
+Locus 200 : Mnov_gtseq_417 
+2 alleles
+22.9% missing data
+   0   (0.487) 0.487 
+   1   (0.513) 0.513 
+
+Locus 201 : Mnov_gtseq_42 
+2 alleles
+0.0% missing data
+   0   (0.268) 0.263 
+   1   (0.732) 0.737 
+
+Locus 202 : Mnov_gtseq_421 
+3 alleles
+18.3% missing data
+   1   (0.320) 0.320 
+   2   (0.534) 0.538 
+   0   (0.146) 0.142 
+
+Locus 203 : Mnov_gtseq_426 
+2 alleles
+0.0% missing data
+   1   (0.938) 0.945 
+   0   (0.062) 0.055 
+
+Locus 204 : Mnov_gtseq_43 
+2 alleles
+0.0% missing data
+   0   (0.619) 0.620 
+   1   (0.381) 0.380 
+
+Locus 205 : Mnov_gtseq_431 
+2 alleles
+17.0% missing data
+   1   (0.523) 0.523 
+   0   (0.477) 0.477 
+
+Locus 206 : Mnov_gtseq_434 
+2 alleles
+0.0% missing data
+   1   (0.577) 0.578 
+   0   (0.423) 0.422 
+
+Locus 207 : Mnov_gtseq_437 
+3 alleles
+2.6% missing data
+   2   (0.728) 0.737 
+   1   (0.226) 0.223 
+   0   (0.047) 0.040 
+
+Locus 208 : Mnov_gtseq_438 
+2 alleles
+22.2% missing data
+   1   (0.553) 0.554 
+   0   (0.447) 0.446 
+
+Locus 209 : Mnov_gtseq_44 
+3 alleles
+19.6% missing data
+   1   (0.476) 0.478 
+   2   (0.510) 0.514 
+   0   (0.014) 0.007 
+
+Locus 210 : Mnov_gtseq_440 
+3 alleles
+0.7% missing data
+   0   (0.567) 0.573 
+   2   (0.372) 0.372 
+   1   (0.061) 0.055 
+
+Locus 211 : Mnov_gtseq_441 
+2 alleles
+0.0% missing data
+   0   (0.545) 0.545 
+   1   (0.455) 0.455 
+
+Locus 212 : Mnov_gtseq_442 
+2 alleles
+43.1% missing data
+   1   (0.513) 0.512 
+   0   (0.487) 0.488 
+
+Locus 213 : Mnov_gtseq_444 
+3 alleles
+1.3% missing data
+   2   (0.596) 0.600 
+   1   (0.385) 0.387 
+   0   (0.020) 0.013 
+
+Locus 214 : Mnov_gtseq_445 
+2 alleles
+4.6% missing data
+   1   (0.352) 0.350 
+   0   (0.648) 0.650 
+
+Locus 215 : Mnov_gtseq_446 
+2 alleles
+0.0% missing data
+   0   (0.893) 0.899 
+   1   (0.107) 0.101 
+
+Locus 216 : Mnov_gtseq_447 
+2 alleles
+0.0% missing data
+   0   (0.654) 0.656 
+   1   (0.346) 0.344 
+
+Locus 217 : Mnov_gtseq_448 
+2 alleles
+3.3% missing data
+   1   (0.543) 0.544 
+   0   (0.457) 0.456 
+
+Locus 218 : Mnov_gtseq_45 
+2 alleles
+0.0% missing data
+   1   (0.935) 0.942 
+   0   (0.065) 0.058 
+
+Locus 219 : Mnov_gtseq_451 
+3 alleles
+0.0% missing data
+   0   (0.187) 0.184 
+   1   (0.601) 0.608 
+   2   (0.212) 0.208 
+
+Locus 220 : Mnov_gtseq_452 
+3 alleles
+0.7% missing data
+   0   (0.458) 0.460 
+   1   (0.236) 0.234 
+   2   (0.305) 0.306 
+
+Locus 221 : Mnov_gtseq_454 
+2 alleles
+8.5% missing data
+   0   (0.629) 0.631 
+   1   (0.371) 0.369 
+
+Locus 222 : Mnov_gtseq_46 
+3 alleles
+0.0% missing data
+   0   (0.277) 0.275 
+   2   (0.526) 0.530 
+   1   (0.198) 0.194 
+
+Locus 223 : Mnov_gtseq_463 
+3 alleles
+2.0% missing data
+   0   (0.675) 0.683 
+   2   (0.178) 0.175 
+   1   (0.147) 0.142 
+
+Locus 224 : Mnov_gtseq_465 
+2 alleles
+28.1% missing data
+   0   (0.429) 0.428 
+   1   (0.571) 0.572 
+
+Locus 225 : Mnov_gtseq_468 
+2 alleles
+0.0% missing data
+   0   (0.628) 0.630 
+   1   (0.372) 0.370 
+
+Locus 226 : Mnov_gtseq_47 
+2 alleles
+0.0% missing data
+   0   (0.572) 0.572 
+   1   (0.428) 0.428 
+
+Locus 227 : Mnov_gtseq_470 
+2 alleles
+0.0% missing data
+   1   (0.642) 0.643 
+   0   (0.358) 0.357 
+
+Locus 228 : Mnov_gtseq_471 
+2 alleles
+24.2% missing data
+   0   (0.867) 0.872 
+   1   (0.133) 0.128 
+
+Locus 229 : Mnov_gtseq_472 
+2 alleles
+0.7% missing data
+   0   (0.529) 0.530 
+   1   (0.471) 0.470 
+
+Locus 230 : Mnov_gtseq_475 
+11 alleles
+0.0% missing data
+   2   (0.153) 0.158 
+   9   (0.024) 0.019 
+   8   (0.497) 0.534 
+   0   (0.061) 0.057 
+   5   (0.120) 0.123 
+   7   (0.034) 0.028 
+   1   (0.028) 0.022 
+   6   (0.034) 0.028 
+   3   (0.019) 0.013 
+  10   (0.018) 0.012 
+   4   (0.012) 0.006 
+
+Locus 231 : Mnov_gtseq_478 
+2 alleles
+9.8% missing data
+   0   (0.401) 0.399 
+   1   (0.599) 0.601 
+
+Locus 232 : Mnov_gtseq_479 
+2 alleles
+0.0% missing data
+   1   (0.592) 0.594 
+   0   (0.408) 0.406 
+
+Locus 233 : Mnov_gtseq_50 
+4 alleles
+0.0% missing data
+   2   (0.389) 0.394 
+   3   (0.123) 0.119 
+   0   (0.232) 0.232 
+   1   (0.255) 0.255 
+
+Locus 234 : Mnov_gtseq_502 
+2 alleles
+2.6% missing data
+   0   (0.568) 0.569 
+   1   (0.432) 0.431 
+
+Locus 235 : Mnov_gtseq_504 
+3 alleles
+0.0% missing data
+   0   (0.459) 0.462 
+   1   (0.518) 0.522 
+   2   (0.023) 0.016 
+
+Locus 236 : Mnov_gtseq_506 
+2 alleles
+14.4% missing data
+   0   (0.360) 0.356 
+   1   (0.640) 0.644 
+
+Locus 237 : Mnov_gtseq_507 
+2 alleles
+0.0% missing data
+   1   (0.533) 0.533 
+   0   (0.467) 0.467 
+
+Locus 238 : Mnov_gtseq_509 
+2 alleles
+7.8% missing data
+   0   (0.398) 0.397 
+   1   (0.602) 0.603 
+
+Locus 239 : Mnov_gtseq_51 
+2 alleles
+0.7% missing data
+   0   (0.510) 0.510 
+   1   (0.490) 0.490 
+
+Locus 240 : Mnov_gtseq_511 
+2 alleles
+12.4% missing data
+   0   (0.408) 0.407 
+   1   (0.592) 0.593 
+
+Locus 241 : Mnov_gtseq_513 
+2 alleles
+3.3% missing data
+   0   (0.363) 0.360 
+   1   (0.637) 0.640 
+
+Locus 242 : Mnov_gtseq_514 
+3 alleles
+0.7% missing data
+   2   (0.726) 0.736 
+   0   (0.052) 0.046 
+   1   (0.221) 0.219 
+
+Locus 243 : Mnov_gtseq_515 
+3 alleles
+5.2% missing data
+   0   (0.160) 0.157 
+   1   (0.496) 0.499 
+   2   (0.343) 0.344 
+
+Locus 244 : Mnov_gtseq_517 
+2 alleles
+3.9% missing data
+   0   (0.610) 0.612 
+   1   (0.390) 0.388 
+
+Locus 245 : Mnov_gtseq_518 
+3 alleles
+0.0% missing data
+   0   (0.650) 0.657 
+   1   (0.166) 0.162 
+   2   (0.185) 0.181 
+
+Locus 246 : Mnov_gtseq_521 
+2 alleles
+9.8% missing data
+   0   (0.476) 0.476 
+   1   (0.524) 0.524 
+
+Locus 247 : Mnov_gtseq_522 
+2 alleles
+0.7% missing data
+   0   (0.705) 0.709 
+   1   (0.295) 0.291 
+
+Locus 248 : Mnov_gtseq_523 
+2 alleles
+0.0% missing data
+   0   (0.627) 0.627 
+   1   (0.373) 0.373 
+
+Locus 249 : Mnov_gtseq_529 
+2 alleles
+26.8% missing data
+   0   (0.643) 0.646 
+   1   (0.357) 0.354 
+
+Locus 250 : Mnov_gtseq_53 
+2 alleles
+0.0% missing data
+   1   (0.489) 0.487 
+   0   (0.511) 0.513 
+
+Locus 251 : Mnov_gtseq_532 
+7 alleles
+9.2% missing data
+   1   (0.389) 0.403 
+   2   (0.304) 0.313 
+   4   (0.095) 0.092 
+   3   (0.163) 0.162 
+   5   (0.017) 0.010 
+   0   (0.020) 0.014 
+   6   (0.013) 0.007 
+
+Locus 252 : Mnov_gtseq_533 
+2 alleles
+1.3% missing data
+   0   (0.582) 0.583 
+   1   (0.418) 0.417 
+
+Locus 253 : Mnov_gtseq_536 
+3 alleles
+41.8% missing data
+   1   (0.606) 0.612 
+   2   (0.279) 0.277 
+   0   (0.116) 0.110 
+
+Locus 254 : Mnov_gtseq_54 
+2 alleles
+0.0% missing data
+   1   (0.886) 0.893 
+   0   (0.114) 0.107 
+
+Locus 255 : Mnov_gtseq_541 
+2 alleles
+0.0% missing data
+   0   (0.753) 0.757 
+   1   (0.247) 0.243 
+
+Locus 256 : Mnov_gtseq_543 
+3 alleles
+0.0% missing data
+   0   (0.536) 0.540 
+   2   (0.402) 0.404 
+   1   (0.062) 0.055 
+
+Locus 257 : Mnov_gtseq_544 
+2 alleles
+0.7% missing data
+   0   (0.572) 0.575 
+   1   (0.428) 0.425 
+
+Locus 258 : Mnov_gtseq_545 
+2 alleles
+0.7% missing data
+   0   (0.578) 0.579 
+   1   (0.422) 0.421 
+
+Locus 259 : Mnov_gtseq_546 
+4 alleles
+9.8% missing data
+   1   (0.070) 0.064 
+   2   (0.426) 0.432 
+   3   (0.487) 0.493 
+   0   (0.017) 0.011 
+
+Locus 260 : Mnov_gtseq_547 
+2 alleles
+0.0% missing data
+   0   (0.529) 0.530 
+   1   (0.471) 0.470 
+
+Locus 261 : Mnov_gtseq_548 
+2 alleles
+0.0% missing data
+   0   (0.449) 0.448 
+   1   (0.551) 0.552 
+
+Locus 262 : Mnov_gtseq_549 
+3 alleles
+1.3% missing data
+   1   (0.107) 0.102 
+   2   (0.816) 0.826 
+   0   (0.078) 0.072 
+
+Locus 263 : Mnov_gtseq_55 
+4 alleles
+5.9% missing data
+   0   (0.500) 0.507 
+   3   (0.262) 0.263 
+   2   (0.214) 0.213 
+   1   (0.024) 0.017 
+
+Locus 264 : Mnov_gtseq_550 
+2 alleles
+31.4% missing data
+   0   (0.852) 0.858 
+   1   (0.148) 0.142 
+
+Locus 265 : Mnov_gtseq_553 
+2 alleles
+26.8% missing data
+   0   (0.891) 0.898 
+   1   (0.109) 0.102 
+
+Locus 266 : Mnov_gtseq_56 
+3 alleles
+0.0% missing data
+   1   (0.827) 0.838 
+   2   (0.161) 0.156 
+   0   (0.013) 0.006 
+
+Locus 267 : Mnov_gtseq_57 
+3 alleles
+3.9% missing data
+   0   (0.159) 0.155 
+   1   (0.377) 0.377 
+   2   (0.464) 0.468 
+
+Locus 268 : Mnov_gtseq_58 
+3 alleles
+5.2% missing data
+   0   (0.135) 0.130 
+   1   (0.473) 0.477 
+   2   (0.392) 0.393 
+
+Locus 269 : Mnov_gtseq_6 
+2 alleles
+2.0% missing data
+   0   (0.498) 0.497 
+   1   (0.502) 0.503 
+
+Locus 270 : Mnov_gtseq_60 
+2 alleles
+0.0% missing data
+   0   (0.532) 0.533 
+   1   (0.468) 0.467 
+
+Locus 271 : Mnov_gtseq_61 
+3 alleles
+0.0% missing data
+   1   (0.412) 0.415 
+   0   (0.225) 0.223 
+   2   (0.363) 0.362 
+
+Locus 272 : Mnov_gtseq_63 
+2 alleles
+0.7% missing data
+   0   (0.469) 0.468 
+   1   (0.531) 0.532 
+
+Locus 273 : Mnov_gtseq_64 
+4 alleles
+0.0% missing data
+   1   (0.058) 0.051 
+   2   (0.582) 0.592 
+   0   (0.341) 0.344 
+   3   (0.019) 0.013 
+
+Locus 274 : Mnov_gtseq_65 
+2 alleles
+0.0% missing data
+   1   (0.488) 0.487 
+   0   (0.512) 0.513 
+
+Locus 275 : Mnov_gtseq_66 
+2 alleles
+0.0% missing data
+   0   (0.475) 0.474 
+   1   (0.525) 0.526 
+
+Locus 276 : Mnov_gtseq_67 
+2 alleles
+0.0% missing data
+   0   (0.421) 0.419 
+   1   (0.579) 0.581 
+
+Locus 277 : Mnov_gtseq_68 
+3 alleles
+10.5% missing data
+   0   (0.363) 0.364 
+   1   (0.565) 0.571 
+   2   (0.071) 0.065 
+
+Locus 278 : Mnov_gtseq_69 
+2 alleles
+0.0% missing data
+   1   (0.453) 0.451 
+   0   (0.547) 0.549 
+
+Locus 279 : Mnov_gtseq_70 
+2 alleles
+0.0% missing data
+   0   (0.504) 0.504 
+   1   (0.496) 0.496 
+
+Locus 280 : Mnov_gtseq_71 
+3 alleles
+0.0% missing data
+   0   (0.231) 0.230 
+   1   (0.621) 0.627 
+   2   (0.148) 0.143 
+
+Locus 281 : Mnov_gtseq_72 
+3 alleles
+0.0% missing data
+   2   (0.634) 0.640 
+   0   (0.215) 0.213 
+   1   (0.151) 0.146 
+
+Locus 282 : Mnov_gtseq_73 
+2 alleles
+0.0% missing data
+   0   (0.165) 0.159 
+   1   (0.835) 0.841 
+
+Locus 283 : Mnov_gtseq_74 
+3 alleles
+0.0% missing data
+   1   (0.846) 0.858 
+   0   (0.130) 0.126 
+   2   (0.024) 0.016 
+
+Locus 284 : Mnov_gtseq_75 
+3 alleles
+0.0% missing data
+   1   (0.600) 0.605 
+   2   (0.311) 0.311 
+   0   (0.089) 0.084 
+
+Locus 285 : Mnov_gtseq_79 
+2 alleles
+5.9% missing data
+   1   (0.920) 0.927 
+   0   (0.080) 0.073 
+
+Locus 286 : Mnov_gtseq_8 
+2 alleles
+3.9% missing data
+   0   (0.769) 0.773 
+   1   (0.231) 0.227 
+
+Locus 287 : Mnov_gtseq_80 
+2 alleles
+0.7% missing data
+   0   (0.549) 0.549 
+   1   (0.451) 0.451 
+
+Locus 288 : Mnov_gtseq_82 
+3 alleles
+0.0% missing data
+   0   (0.045) 0.039 
+   1   (0.420) 0.423 
+   2   (0.535) 0.538 
+
+Locus 289 : Mnov_gtseq_83 
+2 alleles
+0.0% missing data
+   0   (0.596) 0.598 
+   1   (0.404) 0.402 
+
+Locus 290 : Mnov_gtseq_84 
+3 alleles
+0.0% missing data
+   1   (0.329) 0.328 
+   2   (0.403) 0.404 
+   0   (0.268) 0.268 
+
+Locus 291 : Mnov_gtseq_86 
+2 alleles
+0.0% missing data
+   0   (0.513) 0.513 
+   1   (0.487) 0.487 
+
+Locus 292 : Mnov_gtseq_90 
+2 alleles
+0.0% missing data
+   1   (0.823) 0.828 
+   0   (0.177) 0.172 
+
+Locus 293 : Mnov_gtseq_91 
+2 alleles
+1.3% missing data
+   0   (0.672) 0.675 
+   1   (0.328) 0.325 
+
+Locus 294 : Mnov_gtseq_92 
+3 alleles
+0.0% missing data
+   0   (0.467) 0.470 
+   2   (0.128) 0.123 
+   1   (0.405) 0.407 
+
+Locus 295 : Mnov_gtseq_93 
+2 alleles
+0.7% missing data
+   0   (0.564) 0.566 
+   1   (0.436) 0.434 
+
+Locus 296 : Mnov_gtseq_94 
+2 alleles
+0.0% missing data
+   0   (0.461) 0.461 
+   1   (0.539) 0.539 
+
+Locus 297 : Mnov_gtseq_97 
+3 alleles
+4.6% missing data
+   0   (0.552) 0.556 
+   1   (0.265) 0.264 
+   2   (0.183) 0.179 
+
+Locus 298 : Mnov_gtseq_98 
+3 alleles
+0.0% missing data
+   1   (0.368) 0.368 
+   2   (0.606) 0.612 
+   0   (0.026) 0.019 
+
+Values of parameters used in structure:
+DATAFILE=herd.structureRun/herd.structureRun.k1.r1_data,	OUTFILE=herd.structureRun/herd.structureRun.k1.r1_out,	NUMINDS=153,	NUMLOCI=298,	MISSING=-9,	LABEL=1,	POPDATA=1,	POPFLAG=1,	PHENOTYPE=0,	EXTRACOLS=0,	MAXPOPS=1,	BURNIN=1000,	NUMREPS=10000,	USEPOPINFO=0,	INFERALPHA=0,	INFERLAMBDA=0,	POPSPECIFICLAMBDA=0,	POPALPHAS=0,	COMPUTEPROB=1,	NOADMIX=0,	ADMBURNIN=500,	UPDATEFREQ=200,	PRINTLIKES=0,	INTERMEDSAVE=0,	PRINTKLD=0,	PRINTNET=0,	PRINTLAMBDA=0,	ANCESTDIST=0,	NUMBOXES=1000,	ANCESTPINT=0.90000,	GENSBACK=2,	MIGRPRIOR=0.05000,	PRINTQHAT=0,	PRINTQSUM=0,	ALPHA=1.0000,	FREQSCORR=1,	FPRIORMEAN=0.0100,	FPRIORSD=0.0500,	ONEFST=0,	LAMBDA=1.0000,	UNIFPRIORALPHA=1,	ALPHAMAX=20.0000,	ALPHAPRIORA=0.0500,	ALPHAPRIORB=0.0010,	ALPHAPROPSD=0.0250,	STARTATPOPINFO=0,	RANDOMIZE=1,	LINKAGE=0,	METROFREQ=10,	REPORTHITRATE=0,	MARKOVPHASE=-1,	PHASED=1,	PLOIDY=2,	PHASEINFO=0	LOCPRIOR=0, 	LOCPRIORINIT=1.000000, 	LOCDATA=0, 	LOCISPOP=0, 	LOCPRIORSTEP=0.100000, 	MAXLOCPRIOR=20.000000, 	SEED=1741991423,	
+[STRAT parameters]:    NUMSIMSTATS=1000,	PHENOTYPECOL=-9,	POOLFREQ=10,	LOCUSxONLY=0,	EMERROR=0.00100,	MISSINGPHENO=-9,	

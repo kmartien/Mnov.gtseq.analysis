@@ -2,11 +2,11 @@ library(strataG)
 library(genepop)
 library(tidyverse)
 library(ggplot2)
-load("data/gtypes_all_minReads20.rda")
+load("data/gtypes_final.sams.no.dupes_minReads.20.rda")
 
-#n.reps.pvals <- 10
+n.reps.pvals <- 1000
 
-strat.scheme <- "wint.area"
+strat.scheme <- "herd"
 
 g.stratified <- stratify(g, scheme = strat.scheme, drop = TRUE)
 ind.smry <- summarizeInds(g.stratified)
@@ -16,15 +16,12 @@ plot <- ggplot(ind.smry, aes(x = num.loci.missing.genotypes, y = pct.loci.homozy
 plot
 
 #only do pairwise tests on strata with 10 or more samples
-g.10 <- g.stratified[,,which(getNumInd(g.stratified, by.strata = TRUE)$num.ind >= 10)]
-#pws.struct <- pairwiseSummary(pairwiseTest(g.10, nrep = n.reps.pvals))
+g.9 <- g.stratified[,,which(getNumInd(g.stratified, by.strata = TRUE)$num.ind >= 9)]
+pws.struct <- pairwiseTest(g.9, nrep = n.reps.pvals)
+pws.sum <- pairwiseSummary(pws.struct)
+chi2.mat <- pairwiseMatrix(pws.struct, stat = 'CHIsq')
+fst.mat <- pairwiseMatrix(pws.struct, stat = 'Fst') 
 
-g.pop.infile <- genepopWrite(g.10)
-
-g.pop.outfile <- Fst(g.pop.infile$fname, pairs = TRUE)
-
-
-genepop.res <- read.csv(paste0("results-raw/genepop.results.", strat.scheme, ".csv"))
-genepop.mat <- pivot_wider(select(genepop.res, c(Pop1, Pop2, p)), names_from = Pop2, values_from = p, names_sort = TRUE)
-write.csv(genepop.mat, file = paste0("results-raw/genepop.", strat.scheme, ".res.mat.csv"))
-save(g.stratified, ind.smry, genepop.res, file = paste0("results-R/pop.struct.", strat.scheme, ".rda"))
+write.csv(chi2.mat, file = paste0("results-raw/pairwise_chi2_", strat.scheme, ".csv"))
+write.csv(fst.mat, file = paste0("results-raw/pairwise_fst_", strat.scheme, ".csv"))
+save(g.stratified, ind.smry, pws.struct, file = paste0("results-R/pop.struct.", strat.scheme, ".rda"))

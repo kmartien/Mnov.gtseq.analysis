@@ -6,13 +6,14 @@ library(swfscMisc)
 data("id.key")
 id.key$LABID <- paste0("z0", zero.pad(id.key$LABID))
 
-project <- "final.sams"
+project <- "final.sams.no.dupes"
 min.reads <- 20
 
-load(file = paste0("data/gtypes_", project, "_minReads", min.reads, ".rda"))
+load(file = paste0("data/gtypes_", project, "_minReads.", min.reads, ".rda"))
 load(file = paste0("results-R/", project, ".", min.reads, "readsMin.geno.eval.rda"))
 
 dupes <- dupGenotypes(g)
+dupe.mat <- pivot_wider(select(dupes, c(ids.1, ids.2, prop.loci.shared)), names_from = ids.2, values_from = prop.loci.shared)
 
 dupe.genos <- lapply(1:nrow(dupes), function(i){
   filter(geno.table, Indiv == dupes$ids.1[i] | Indiv == dupes$ids.2[i])
