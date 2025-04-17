@@ -1,5 +1,5 @@
- Analysis Description ( R - assignPOP ver. 1.2.4 )
- Perform assign.kfold() @ 2024-03-08 14:23:53 
+ Analysis Description ( R - assignPOP ver. 1.3.0 )
+ Perform assign.kfold() @ 2025-02-27 14:08:24 
 
  k.fold = 3 4 5 
  train.loci = 0.8 0.9 1 
@@ -11,9 +11,9 @@
  Machine learning model: lda 
 
  Input Data ( genetics )
- Number of individuals: 169 
- Number of loci: 327 
+ Number of individuals: 175 
+ Number of loci: 298 
  Number of non-genetic variables: 0 
- Number of populations: 2 
- CentAm-CA.OR.WA MnMx-CA.OR.WA 
- 80 89 
+ Number of populations: 3 
+ CentAm-CA.OR.WA HI-WA.SBC MnMx-CA.OR.WA 
+ 77 89 9 
