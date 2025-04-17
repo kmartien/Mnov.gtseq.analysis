@@ -3,8 +3,8 @@
 #define NUMREPS 10000
 #define INFILE wint.area.structureRun/wint.area.structureRun.k7.r1_data
 #define OUTFILE wint.area.structureRun/wint.area.structureRun.k7.r1_out
-#define NUMINDS 357
-#define NUMLOCI 328
+#define NUMINDS 350
+#define NUMLOCI 298
 #define MISSING -9
 #define LABEL 1
 #define POPDATA 1
