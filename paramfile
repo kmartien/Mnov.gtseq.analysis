@@ -2,9 +2,9 @@ DATATYPE 0
 INDFILE indfile 
 OUTFILE outfile 
 MISCFILE miscfile 
-K 3 
-C 357 
-R 1 
+K 2 
+C 350 
+R 5 
 M 2 
 W 0 
 S 1 

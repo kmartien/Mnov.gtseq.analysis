@@ -16,8 +16,10 @@
 /data-raw/sam.files
 /data-raw/fastq
 /results-R/GTseq.loc.seqs.full.CHROM.Rdata
+/results-R/microhaplot
 /instructions/SNP_panel_workflow.html
 *.pileup
+CCES.by.*.tiff
 
 # Example code in package build process
 *-Ex.R

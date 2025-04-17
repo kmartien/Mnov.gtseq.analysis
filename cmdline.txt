@@ -1,0 +1,7 @@
+Genepop
+GenepopInputFile=gtypes_created_on_2025.03.18_11.39.20_loc_data.txt
+MenuOptions=6:2
+EstimationPloidy=Diploid
+RandomSeed=67144630
+Mode=Batch
+
